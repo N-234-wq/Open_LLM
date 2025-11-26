@@ -12,3 +12,11 @@ Zur inhaltlichen Beschreibung von Dokumenten im Bereich der Medizin werden [Medi
 4. Mithilfe von Nearest-Neighbor-Search wird der ähnlichste MeSH-Term ermittelt
 5. Der zugeordnete MeSH-Term wird mit dem tatsächlich vergebenen Term verglichen
 6. Evaluierung (Precision/Recall/F1-Score)
+
+
+## Modelle die in Frage kommen
+
+- teknium/OpenHermes-13B
+- teknium/OpenHermes-2.5-Mistral-7B
+- meta-llama/Meta-Llama-3-8B-Instruct
+- openchat/openchat-3.5-0106
