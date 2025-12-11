@@ -14,7 +14,7 @@ Zur inhaltlichen Beschreibung von Dokumenten im Bereich der Medizin werden [Medi
 6. Evaluierung (Precision/Recall/F1-Score)
 
 
-## Welches Modell wird genutzt?
+## Welches Open-LLM wird genutzt?
 
 - teknium/OpenHermes-2.5-Mistral-7B
 
