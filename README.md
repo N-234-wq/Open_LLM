@@ -14,9 +14,10 @@ Zur inhaltlichen Beschreibung von Dokumenten im Bereich der Medizin werden [Medi
 6. Evaluierung (Precision/Recall/F1-Score)
 
 
-## Modelle die in Frage kommen
+## Welches Modell wird genutzt?
 
-- teknium/OpenHermes-13B
 - teknium/OpenHermes-2.5-Mistral-7B
-- meta-llama/Meta-Llama-3-8B-Instruct
-- openchat/openchat-3.5-0106
+
+## Welches Embedding Modell wird genutzt?
+[ModernPubMedBERT](https://huggingface.co/lokeshch19/ModernPubMedBERT)
+
