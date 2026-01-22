@@ -1,0 +1,29 @@
+first Prompt:
+
+Give me an ordered list of 3-6 keywords that best describe the following document with the title: {title} and the abstract: {abstract}, The requirements are as followed: generate between 3-6 keywords and prioritize specific terms over generic ones"
+
+
+second Prompt:
+
+"Generate an ordered list of exactly 3 to 6 keywords that best describe the following document, based on the title and abstract. Focus on concepts, topics, and important ideas from the document. Focus on the document’s core concepts, topics, and key ideas. Prioritize specific, descriptive terms and avoid generic broad keywords. Do not include any names of individuals or organizations.\nTitle: {title}\nAbstract: {abstract}"
+                
+ 
+third Prompt:
+Generate an ordered list of exactly 3 to 6 keywords that best describe the following document, based on its title and abstract. Focus on the main concepts, topics, and important ideas presented. Prioritize specific, unique terms that accurately capture the document’s key themes, and avoid generic or overly broad terms.Use only English words.\nDo not include the names of individuals, organizations, conferences, symposiums, workshops, journals, or events, as these are unsuitable as descriptive keywords.\nTitle: {title}\nAbstract: {abstract}
+
+
+Fourth Prompt:
+Generate an ordered list of keywords, that best describe the following document, based on its title and abstract. Focus on the main concepts, topics, and important ideas presented. Prioritize specific, unique terms that accurately capture the document’s key themes, and avoid generic or overly broad terms.Use only English words.\nDo not include the names of individuals, organizations, conferences, symposiums, workshops, journals, or events, as these are unsuitable as descriptive keywords.\nTitle: {title}\nAbstract: {abstract}
+
+
+Fifth Prompt:
+Generate an ordered list of keywords that best describe the following document, based on its title and abstract. The number of keywords should be variable, with an average target of 6–7 keywords, but may be more or fewer as appropriate, and must never exceed 15. Focus on the main concepts, topics, and important ideas presented. Prioritize specific, unique terms that accurately capture the document’s key themes, and avoid generic or overly broad terms.Use only English words.\nDo not include the names of individuals, organizations, conferences, symposiums, workshops, journals, or events, as these are unsuitable as descriptive keywords.\nTitle: {title}\nAbstract: {abstract}
+
+
+Sixth Prompt: 
+Generate a list of keywords that best describe the following document, based on its title and abstract. Output only a numbered list with one keyword per line. The number of keywords should be variable, with an average target of 6–7 keywords, but may be more or fewer as appropriate, and must never exceed 15. Focus on the main concepts, topics, and important ideas presented. Prioritize specific, unique terms that accurately capture the document’s key themes, and avoid generic or overly broad terms. Use only English words.\nDo not include the names of individuals, organizations, conferences, symposiums, workshops, journals, or events, as these are unsuitable as descriptive keywords.\nTitle: {title}\nAbstract: {abstract}
+
+Output format requirements:
+– Use a numbered list (1., 2., 3., …), with one keyword per line
+– Do not use commas, paragraphs, bullet points, or explanations
+– Output only the list
